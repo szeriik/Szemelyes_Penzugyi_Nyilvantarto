@@ -20,7 +20,7 @@ namespace Szemelyes_Penzugyi_Nyilvantarto
         {
             InitializeComponent();
 
-            //szia
+            //szia 2
         }
     }
 }
