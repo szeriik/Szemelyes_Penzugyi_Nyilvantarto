@@ -1,0 +1,20 @@
+﻿<Window x:Class="Szemelyes_Penzugyi_Nyilvantarto.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Szemelyes_Penzugyi_Nyilvantarto"
+        mc:Ignorable="d"
+        Title="Bejelentkezés" 
+        Height="300" 
+        Width="450">
+    <Grid Margin="0,0,10,11">
+        <Label Content="Felhasználónév:" HorizontalAlignment="Left" Margin="58,93,0,0" VerticalAlignment="Top" Height="26" Width="209"/>
+        <Button Content="Bejelentkezés" HorizontalAlignment="Left" Margin="166,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.943,-5.96" Height="23" Width="88" Click="Button_Click"/>
+        <Label Content="Jelszó:" HorizontalAlignment="Left" Margin="115,145,0,0" VerticalAlignment="Top" Height="30" Width="51"/>
+        <TextBox x:Name="usernameTextBox" HorizontalAlignment="Left" Margin="167,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" Height="21"/>
+        <PasswordBox x:Name="passwordTextBox" HorizontalAlignment="Left" Margin="167,150,0,0" VerticalAlignment="Top" Width="224" Height="20"/>
+        <Label Content="Bejelentkezés" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Variable Display Semibold" FontWeight="Bold" FontSize="18" Height="39" Width="140"/>
+
+    </Grid>
+</Window>
