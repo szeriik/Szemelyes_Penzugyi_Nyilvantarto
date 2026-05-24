@@ -19,6 +19,8 @@ namespace Szemelyes_Penzugyi_Nyilvantarto
         public MainWindow()
         {
             InitializeComponent();
+
+            //szia
         }
     }
 }
